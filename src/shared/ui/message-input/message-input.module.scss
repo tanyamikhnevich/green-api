@@ -1,0 +1,15 @@
+@import 'src/styles/variables/variables';
+
+.messageInput {
+  width: 100%;
+  resize: none;
+  padding: 13px;
+  font-size: $font-medium;
+  line-height: 1.5;
+  border: 1px solid $light-gray;
+  border-radius: 8px;
+  overflow-y: auto;
+  transition: height 0.2s ease-in-out;
+  white-space: pre-wrap;
+  max-height: 160px;
+}

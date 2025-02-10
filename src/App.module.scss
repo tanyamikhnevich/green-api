@@ -1,0 +1,20 @@
+@import 'src/styles/variables/variables';
+
+.chatApp {
+  display: flex;
+  height: 100vh;
+}
+
+.header {
+  padding: 20px 35px 0;
+  background: $secondary-bg;
+  min-height: 60px;
+  font-size: $font-large;
+}
+
+
+
+
+
+
+

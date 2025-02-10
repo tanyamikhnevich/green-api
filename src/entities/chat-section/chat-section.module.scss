@@ -1,0 +1,84 @@
+@import 'src/styles/variables/variables';
+.chatSection {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chatHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 35px;
+  background: $secondary-bg;
+  height: 10vh;
+  border-left: 1px solid $primary-bg;
+  & span {
+    font-size: $font-large;
+    display: inline-block;
+    max-width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.chatMessages {
+  flex-grow: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background: url("../../shared/assets/background.png") center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chatMessagesInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.chatInputSection {
+  display: flex;
+  padding: 10px;
+  background-color: $light-gray;
+  flex-shrink: 0;
+  transition: height 0.2s ease-in-out;
+}
+
+.sendButton {
+  width: 15%;
+}
+
+.message {
+  display: inline-block;
+  margin: 8px 0;
+  padding: 14px 25px;
+  background-color: $primary-bg;
+  border-radius: 8px;
+  max-width: 50%;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.sent {
+  margin-left: auto;
+  background-color: $light-green;
+}
+
+.newChatButton {
+  padding: 10px;
+  width: 100%;
+}
+
+.noChatSelected {
+  margin: 20% 40%;
+}
