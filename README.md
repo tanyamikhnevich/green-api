@@ -14,13 +14,5 @@ To start the development server and open the project on `http://localhost:3000`,
 
 ### `npm start`
 
-### 3. Linting
-To check the code for linting issues, run:
-
-### `npm run lint`
-
-To fix linting issues automatically, run:
-
-### `npm run lint:fix`
 
 
